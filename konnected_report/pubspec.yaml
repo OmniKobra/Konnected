@@ -1,0 +1,19 @@
+name: konnected_report
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.5.1
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  teledart: ^0.6.1
+  dart_firebase_admin: ^0.4.0
+  intl: ^0.19.0
+  firedart: ^0.9.8
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
